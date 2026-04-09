@@ -1,0 +1,204 @@
+body{
+    background-color: #ffe6bc;
+}
+    /*header*/
+header {
+    top: -150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #ffdfa9;
+    padding: 2.4% 1%;
+    border-radius: 15px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: top 0.8s ease-in-out;
+    width: 97%;
+    font-weight: 600;
+}
+
+header a {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgb(38, 38, 38);
+    text-align: center;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 10px;
+}
+
+header a:hover {
+    background-color: #ec7f73;
+    color: black;
+}
+
+header a.active {
+    background-color: #c04c40;
+    color:beige;    
+}
+
+header.active{
+    top: 0 !important;
+}
+
+.headerAbout{
+    position: relative;
+    left: 10.5px;
+}
+
+    /*header*/
+
+    /*button*/
+.buttonWrap{
+    text-align: center;
+}
+
+#button{
+    position: relative;
+    bottom: 80px;
+    width: 50px;
+    transform: rotate(270deg);
+    transition: bottom 0.8s ease-in-out, transform 0.8s ease-in-out;
+    cursor: pointer;
+}
+
+#button.active{
+    width: 50x;
+    bottom: -20px !important;
+    transform: rotate(90deg);
+}
+    /*button*/
+
+    /*footer*/
+    .footer{
+    position: fixed;
+    place-items: center;
+    width: 100%;
+    bottom: 0;
+}
+
+#contact{
+    position: relative;
+    top: 12px;
+    font-weight: 900;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+}
+
+#line2{
+    position: relative;
+    bottom: 10px;
+    width: 100%;
+    border-color: #000000;
+}
+
+#flex{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    bottom: 9px;
+}
+
+#linkedIn{
+    position: relative;
+    cursor: pointer;
+    border-radius: 25%;
+    width: 5%;
+    height: 35%;
+    transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+#github{
+    position: relative;
+    cursor: pointer;
+    width: 5%;
+    height: 35%;
+    margin: 0 1%;
+    transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+#email{
+    position: relative;
+    cursor: pointer;
+    width: 5%;
+    height: 35%;
+    transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.zoom:hover {
+    transform: scale(1.09);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0);
+}
+    /*footer*/
+
+    /*mobile*/
+@media only screen and (max-width: 930px) {
+    header{
+    position: relative;
+    top: 0px;
+    margin: 0%;
+    width: 10%;
+    left: 85%;
+    padding: 5% 2%;
+    background-color: #c04c40;
+    }
+
+    header a{
+        position: relative;
+        margin: 0%;
+    }
+    .header-content{
+    display: none;
+    position: absolute;
+    padding: 5%;
+    z-index: 1;
+    }
+
+    header:hover .header-content {
+    display: grid;
+    cursor: pointer;
+    margin-left: 75%;
+    right: -3%;
+    top: 70px;
+    }
+
+    #button{
+    display: none;
+    }
+
+    #headerHome{
+    position: relative;
+    }
+
+    #headerAbout {
+    position: relative;
+    margin-left: 0%;
+    margin-right: 0%;
+    left: 0px;
+    }
+
+    #headerPortfolio{
+    position: relative;
+    }
+
+    #burger{ 
+        display: unset !important;
+        
+    }
+}
+
+.burgerWrap{
+    text-align: center;
+}
+
+#burger{
+    position: relative;
+    object-fit: cover;
+    width: 38%;
+    display: none;
+}
+
