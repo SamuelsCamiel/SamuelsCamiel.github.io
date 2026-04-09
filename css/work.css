@@ -24,7 +24,7 @@
     border-color: rgb(64, 64, 64);
     border-width: 4px;
     border-radius: 5px;
-    width: 30%;
+    width: 50%;
     height: 23%;
     transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
 }
@@ -32,23 +32,6 @@
 .project:hover{
     transform: scale(1.09);
     box-shadow: 0 6px 12px rgba(255, 255, 255, 0);
-}
-
-#rpgPicture{
-    position: relative;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    margin: auto;
-
-}
-
-#marsPicture{
-    position: relative;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    margin: auto;
 }
 
 .projectText{
@@ -73,3 +56,21 @@
     width: 70%;
     border-radius: 10px;
 }
+
+#rpgPicture{
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+
+}
+
+#marsPicture{
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+}
+
