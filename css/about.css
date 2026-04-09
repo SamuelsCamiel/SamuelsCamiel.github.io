@@ -1,0 +1,172 @@
+.container{
+    position: fixed;
+    display: grid;
+    column-gap: 2%;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    place-items: center;
+    top: 170px;
+    
+}
+
+img{
+    transition: background-color 0.4s ease, transform 0.4s ease;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+.me{
+    position: relative;
+    place-items: center;
+}
+
+.music{
+    place-items: center;
+}
+
+.cosplay{
+    place-items: center;
+}
+
+#picture1{
+    display: grid;
+    width: 50%;
+    height: 60%;
+    object-fit: cover;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#picture2{
+    display: grid;
+    width: 75%;
+    object-fit: cover;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#picture3{
+    display: grid;  
+    position: relative;
+    width: 55%;
+    object-fit: cover;
+    justify-content: center;
+    border-radius: 20px; 
+}
+
+.text1{
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.text2{
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.text3{
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}                              
+
+#text1{
+    text-align: center;
+}
+
+#text2{
+    text-align: center;
+}
+
+#text3{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+#picture1{
+    display: grid;
+    width:200px;
+    height: 300px;
+    object-fit: cover;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#picture2{
+    display: grid;
+    width: 300px;
+    object-fit: cover;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#picture3{
+    display: grid;  
+    position: relative;
+    width: 250px;
+    height: 325px;
+    object-fit: cover;
+    justify-content: center;
+    border-radius: 20px; 
+    z-index: -1;
+}
+}
+
+@media only screen and (max-width: 930px) {
+
+    .container{
+        position: relative;
+        top: 200px !important; 
+    }
+
+    #picture1{
+    display: grid;
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#picture2{
+    display: grid;
+    width: 140%;
+    object-fit: cover;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#picture3{
+    display: grid;  
+    position: relative;
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    justify-content: center;
+    border-radius: 20px; 
+    z-index: -1;
+}
+
+.text1{
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 75%;
+}
+
+.text2{
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 75%;
+}
+
+.text3{
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 75%;
+}                              
+
+}

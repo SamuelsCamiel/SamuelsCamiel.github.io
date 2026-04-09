@@ -1,0 +1,48 @@
+body{
+    height: 97vh;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    top: 50px;
+}
+
+#round{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#name{
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    filter: blur(0.3px);
+    color: #e34736;
+    font-weight: 900;
+    bottom: 50px;
+    font-size:55px;
+    text-shadow: 5.5px 5px 2px #290a06;
+}
+
+#line1{
+    position: relative;
+    justify-self: center;
+    bottom: 87px;
+    width: 420px;
+    border-color: #000000;
+}
+
+#about{
+    position: relative;
+    font-size: 21.5px;
+    bottom: 100px;
+    
+    font-family: var(--bs-body-font-family)
+system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+;
+}
+
