@@ -107,16 +107,15 @@ header.active{
     position: relative;
     cursor: pointer;
     border-radius: 25%;
-    width: 5%;
-    height: 35%;
+    width: 85px;
+
     transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 #github{
     position: relative;
     cursor: pointer;
-    width: 5%;
-    height: 35%;
+    width: 72px;
     margin: 0 1%;
     transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
 }
@@ -124,8 +123,8 @@ header.active{
 #email{
     position: relative;
     cursor: pointer;
-    width: 5%;
-    height: 35%;
+    margin-left: 5%;
+    width: 70px;
     transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
 }
 
