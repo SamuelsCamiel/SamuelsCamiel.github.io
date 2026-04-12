@@ -6,7 +6,7 @@
     justify-content: center;
     place-items: center;
     top: 170px;
-    
+    border-style:;
 }
 
 img{
@@ -17,16 +17,8 @@ img:hover{
     transform: scale(1.05);
 }
 
-.me{
+.box{
     position: relative;
-    place-items: center;
-}
-
-.music{
-    place-items: center;
-}
-
-.cosplay{
     place-items: center;
 }
 
