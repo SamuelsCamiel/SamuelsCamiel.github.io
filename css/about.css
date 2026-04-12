@@ -6,7 +6,6 @@
     justify-content: center;
     place-items: center;
     top: 170px;
-    border-style:;
 }
 
 img{
@@ -20,6 +19,7 @@ img:hover{
 .box{
     position: relative;
     place-items: center;
+
 }
 
 #picture1{
@@ -48,35 +48,49 @@ img:hover{
     border-radius: 20px; 
 }
 
-.text1{
-    justify-content: center;
+#text{
+    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}                
 
+#me{
+    position: relative;
+    bottom: 40px;
 }
 
-.text2{
-    justify-content: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
+#music{
+    position: relative;
+    bottom: 32px;
 }
 
-.text3{
-    justify-content: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-}                              
+#cosplay{
+    position: relative;
+    bottom: 15px;
+}
 
 #text1{
-    text-align: center;
-}
+    position: relative;
+    border-style:dashed;
+    border-radius: 5px;
+    border-width: 2px;
+    bottom: 50px;
+}          
 
 #text2{
-    text-align: center;
-}
+    position: relative;
+    border-style:dashed;
+    border-radius: 5px;
+    border-width: 2px;
+    bottom: 40px;
+}              
 
 #text3{
-    text-align: center;
-}
+    position: relative;
+    border-style:dashed;
+    border-radius: 5px;
+    border-width: 2px;
+    bottom: 23px;
+}              
 
 @media only screen and (max-width: 1200px) {
 #picture1{
