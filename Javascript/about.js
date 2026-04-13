@@ -24,3 +24,12 @@ let windowWidth = window.innerWidth;
 }
 reorder()
 
+let windowWidth = window.innerWidth;
+
+
+if(windowWidth < 951) {
+    
+    
+    function()
+}
+
