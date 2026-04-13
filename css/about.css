@@ -97,7 +97,7 @@ img:hover{
 .container{
     position: relative;
     display: block;
-    top: 140px;
+    top: 220px;
     grid-template-columns: 20%;
     height: 1200px;
 }

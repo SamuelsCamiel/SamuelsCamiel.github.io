@@ -149,6 +149,7 @@ header.active{
 
     header a{
         position: relative;
+        color: black;
         margin: 0%;
     }
     .header-content{
