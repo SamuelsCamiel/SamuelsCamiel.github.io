@@ -91,7 +91,7 @@ img:hover{
     bottom: 23px;
 }              
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: px) {
 #picture1{
     display: grid;
     width:200px;
@@ -121,7 +121,7 @@ img:hover{
 }
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: px) {
 
     .container{
         position: relative;
