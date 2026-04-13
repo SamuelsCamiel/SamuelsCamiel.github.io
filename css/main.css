@@ -73,7 +73,7 @@ header.active{
     /*button*/
 
     /*footer*/
-    .footer{
+.footer{
     position: fixed;
     place-items: center;
     width: 100%;
