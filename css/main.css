@@ -157,7 +157,7 @@ header.active{
     z-index: 1;
     }
 
-    header:hover .header-content {
+    header.active .header-content {
     display: grid;
     cursor: pointer;
     margin-left: 75%;

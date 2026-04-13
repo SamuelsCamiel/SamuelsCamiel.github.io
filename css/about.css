@@ -5,6 +5,7 @@
     grid-template-columns: 30% 30% 30%;
     justify-content: center;
     place-items: center;
+    text-align: center;
     top: 170px;
 }
 
@@ -19,7 +20,6 @@ img:hover{
 .box{
     position: relative;
     place-items: center;
-
 }
 
 #picture1{
@@ -49,7 +49,6 @@ img:hover{
 }
 
 #text{
-    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }                
 

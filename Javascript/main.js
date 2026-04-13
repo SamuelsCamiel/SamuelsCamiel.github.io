@@ -3,6 +3,10 @@ document.querySelector("header").classList.toggle("active");
 document.getElementById("button").classList.toggle("active")
 }
 
+function burger() {
+document.getElementById("header").classList.toggle("active");
+}
+
 function linkedIn() {
 window.open("https://www.linkedin.com/in/camiel-samuels-1853392a3/")
 }

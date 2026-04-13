@@ -11,10 +11,17 @@ body{
 
 #round{
     position: relative;
+    bottom: 10px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
+    transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+#round:hover {
+    transform: scale(1.06);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0);
 }
 
 #name{
