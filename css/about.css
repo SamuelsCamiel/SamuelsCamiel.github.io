@@ -125,37 +125,41 @@ p{
     position: relative;
     width: 250px;
     height: 310px;
-    bottom: 120px;
+    bottom: 200px;
 }
 
 #me{
     position: relative;
-    top: 180px;
+    top: 115px;
 }
 
 #text1{
     position: relative;
-    top: 180px;
+    top: 115px;
 }
 
 #picture2{
     position: relative;
-    top: 320px;
+    width: 350px;
+    height: 260px;
+    top: 250px;
 }
 
 #music{
     position: relative;
-    top: 550px;
+    top: 500px;
 }
 
 #text2{
     position: relative;
-    top: 550px;
+    top: 500px;
 }
 
 #picture3{
     position: relative;
-    top: 720px;
+    width: 350px;
+    height: 340px;
+    top: 640px;
 }
 
 #cosplay{
