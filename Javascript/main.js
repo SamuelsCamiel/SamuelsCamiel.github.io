@@ -3,8 +3,10 @@ document.querySelector("header").classList.toggle("active");
 document.getElementById("button").classList.toggle("active")
 }
 
+
+
 function burger() {
-    let windowWidth = window.innerWidth;
+let windowWidth = window.innerWidth;
     if(windowWidth < 951) {
         console.log(windowWidth)
         document.getElementById("header").classList.toggle("active")
@@ -13,6 +15,7 @@ function burger() {
         console.log(windowWidth)
     }
 }
+
 
 
 

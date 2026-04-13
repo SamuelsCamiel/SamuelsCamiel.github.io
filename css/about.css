@@ -9,14 +9,6 @@
     top: 170px;
 }
 
-img{
-    transition: background-color 0.4s ease, transform 0.4s ease;
-}
-
-img:hover{
-    transform: scale(1.05);
-}
-
 .box{
     position: relative;
     place-items: center;
@@ -50,11 +42,7 @@ img:hover{
     object-fit: cover;
     justify-content: center;
     border-radius: 20px; 
-}
-
-#text{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}                
+}              
 
 #me{
     position: relative;
@@ -67,6 +55,10 @@ img:hover{
 #cosplay{
     position: relative;
 }
+
+#text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}  
 
 #text1{
     position: relative;
@@ -89,11 +81,23 @@ img:hover{
     border-width: 2px;
 }              
 
+img{
+    transition: background-color 0.4s ease, transform 0.4s ease;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
 @media only screen and (max-width: 950px) {
 
+
+
 .container{
+    position: relative;
+    display: block;
     top: 140px;
     grid-template-columns: 20%;
+    height: 1200px;
 }
 
 h1{
