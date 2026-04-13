@@ -4,8 +4,18 @@ document.getElementById("button").classList.toggle("active")
 }
 
 function burger() {
-document.getElementById("header").classList.toggle("active");
+    let windowWidth = window.innerWidth;
+    if(windowWidth < 900) {
+        console.log(windowWidth)
+        document.getElementById("header").classList.toggle("active")
+    }
+    else{
+        console.log(windowWidth)
+    }
 }
+
+
+
 
 function linkedIn() {
 window.open("https://www.linkedin.com/in/camiel-samuels-1853392a3/")

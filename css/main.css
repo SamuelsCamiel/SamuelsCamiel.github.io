@@ -135,7 +135,7 @@ header.active{
     /*footer*/
 
     /*mobile*/
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 900px) {
     header{
     position: relative;
     top: 0px;
