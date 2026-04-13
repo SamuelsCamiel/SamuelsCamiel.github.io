@@ -23,7 +23,7 @@ img:hover{
 }
 
 #text.box{
-height: 100%;
+    height: 100%;
 }
 
 #picture1{
@@ -90,12 +90,18 @@ height: 100%;
 }              
 
 @media only screen and (max-width: 950px) {
+
+.container{
+    top: 140px;
+}
+
 h1{
-    font-size: 20px;
+
 }
 
 p{
-    font-size: 12px;
+
+    font-weight: 550;
 }
 }
 
