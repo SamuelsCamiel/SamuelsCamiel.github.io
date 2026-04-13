@@ -93,14 +93,15 @@ img:hover{
 
 .container{
     top: 140px;
+    grid-template-columns: 20%;
 }
 
 h1{
-
+    font-size: 20px;
 }
 
 p{
-
+    font-size: 12px;
     font-weight: 550;
 }
 }
