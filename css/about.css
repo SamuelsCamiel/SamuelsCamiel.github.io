@@ -89,33 +89,13 @@ height: 100%;
     border-width: 2px;
 }              
 
-@media only screen and (max-width: px) {
-#picture1{
-    display: grid;
-    width:200px;
-    height: 300px;
-    object-fit: cover;
-    justify-content: center;
-    border-radius: 20px;
+@media only screen and (max-width: 950px) {
+h1{
+    font-size: 20px;
 }
 
-#picture2{
-    display: grid;
-    width: 300px;
-    object-fit: cover;
-    justify-content: center;
-    border-radius: 20px;
-}
-
-#picture3{
-    display: grid;  
-    position: relative;
-    width: 250px;
-    height: 325px;
-    object-fit: cover;
-    justify-content: center;
-    border-radius: 20px; 
-    z-index: -1;
+p{
+    font-size: 12px;
 }
 }
 
