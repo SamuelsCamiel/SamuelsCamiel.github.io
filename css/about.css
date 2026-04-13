@@ -22,6 +22,10 @@ img:hover{
     place-items: center;
 }
 
+#text.box{
+height: 100%;
+}
+
 #picture1{
     display: grid;
     width: 50%;
@@ -54,17 +58,14 @@ img:hover{
 
 #me{
     position: relative;
-    bottom: 40px;
 }
 
 #music{
     position: relative;
-    bottom: 32px;
 }
 
 #cosplay{
     position: relative;
-    bottom: 15px;
 }
 
 #text1{
@@ -72,7 +73,6 @@ img:hover{
     border-style:dashed;
     border-radius: 5px;
     border-width: 2px;
-    bottom: 50px;
 }          
 
 #text2{
@@ -80,7 +80,6 @@ img:hover{
     border-style:dashed;
     border-radius: 5px;
     border-width: 2px;
-    bottom: 40px;
 }              
 
 #text3{
@@ -88,7 +87,6 @@ img:hover{
     border-style:dashed;
     border-radius: 5px;
     border-width: 2px;
-    bottom: 23px;
 }              
 
 @media only screen and (max-width: px) {
@@ -153,7 +151,6 @@ img:hover{
     object-fit: cover;
     justify-content: center;
     border-radius: 20px; 
-    z-index: -1;
 }
 
 .text1{
