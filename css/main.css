@@ -138,6 +138,7 @@ header.active{
 @media only screen and (max-width: 950px) {
     header{
     position: relative;
+    cursor: pointer;
     top: 0px;
     margin: 0%;
     width: 10%;
