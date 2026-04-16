@@ -3,11 +3,12 @@
     position: relative;
     justify-content: center;
     margin: auto;
-    top: 70px;
+    top: 150px;
     background-color: #fed18f;
     width: 95%;
     height: 1600px;
     border-radius: 25px;
+    flex-wrap: wrap;
 }
 
 #lijstText{
@@ -19,8 +20,11 @@
 
 .project{
     position: relative;
+    display: flex;
+    
+    flex-wrap: wrap;
     text-align: center;
-    margin: 120px 1rem;
+    margin: px 1rem;
     background-color: rgb(255, 228, 152);
     border-style: solid;
     border-color: rgb(64, 64, 64);
@@ -28,6 +32,7 @@
     border-radius: 5px;
     width: 22rem;
     height: 25%;
+
     transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
 }
 
@@ -62,7 +67,7 @@
     margin: auto;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
-    top: 20px;
+    top: 5px;
     padding: 15px;
     width: 70%;
     border-radius: 10px;
