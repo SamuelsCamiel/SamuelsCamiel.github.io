@@ -12,6 +12,13 @@
     flex-wrap: wrap;
 }
 
+#introductieText{
+    position: relative;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 18px;
+}
+
 #lijstText{
     position: absolute;
     text-align: center;
@@ -23,7 +30,6 @@
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-
     background-color: rgb(255, 228, 152);
     border-style: solid;
     border-color: rgb(64, 64, 64);
@@ -52,7 +58,6 @@
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    top: 10px;
 }
 
 .downloadButton{
@@ -66,7 +71,7 @@
     margin: auto;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
-    top: 5px;
+    bottom: 10px;
     padding: 15px;
     width: 70%;
     border-radius: 10px;
