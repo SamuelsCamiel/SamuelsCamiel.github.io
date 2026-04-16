@@ -1,31 +1,33 @@
 .container{
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
     position: relative;
     justify-content: center;
     margin: auto;
     top: 70px;
     background-color: #fed18f;
-    width: 70%;
+    width: 95%;
     height: 1600px;
     border-radius: 25px;
 }
 
-.space{
-    height: 100px;
+#lijstText{
+    position: relative;
+    text-align: center;
+    top: 160px;
+    z-index: 1;
 }
 
 .project{
     position: relative;
     text-align: center;
-    margin: 10% auto;
+    margin: 120px 1rem;
     background-color: rgb(255, 228, 152);
     border-style: solid;
     border-color: rgb(64, 64, 64);
     border-width: 4px;
     border-radius: 5px;
-    width: 50%;
-    height: 23%;
+    width: 22rem;
+    height: 25%;
     transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
 }
 
@@ -34,11 +36,19 @@
     box-shadow: 0 6px 12px rgba(255, 255, 255, 0);
 }
 
+.picture{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 12rem;
+}
+
 .projectText{
     position: relative;
     text-align: center;
-    font-weight: 500;
     font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    top: 10px;
 }
 
 .downloadButton{
@@ -52,29 +62,15 @@
     margin: auto;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
+    top: 20px;
     padding: 15px;
     width: 70%;
     border-radius: 10px;
 }
 
-#rpgPicture{
-    position: relative;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    margin: auto;
 
-}
 
-#marsPicture{
-    position: relative;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    margin: auto;
-}
-
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 0px) {
 
     .container{
         grid-template-columns: auto;
