@@ -2,7 +2,8 @@
     display: flex;
     position: relative;
     justify-content: center;
-    margin: auto;
+    margin: auto 0;
+    column-gap: 1rem;
     top: 150px;
     background-color: #fed18f;
     width: 95%;
@@ -12,19 +13,17 @@
 }
 
 #lijstText{
-    position: relative;
+    position: absolute;
     text-align: center;
-    top: 160px;
     z-index: 1;
 }
 
 .project{
     position: relative;
     display: flex;
-    
     flex-wrap: wrap;
     text-align: center;
-    margin: px 1rem;
+
     background-color: rgb(255, 228, 152);
     border-style: solid;
     border-color: rgb(64, 64, 64);
@@ -32,7 +31,7 @@
     border-radius: 5px;
     width: 22rem;
     height: 25%;
-
+    top: 100px;
     transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
 }
 
