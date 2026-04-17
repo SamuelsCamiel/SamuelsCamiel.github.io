@@ -8,46 +8,56 @@
     <link rel="stylesheet" href="../css/work.css">  
     <script src="../Javascript/main.js"></script>
     <link rel="icon" type="image/x-icon" href="../images/favicon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header id="header" onclick="burger()">
     <img src="../images/Hamburger.png" alt="" id="burger">
         <div class="header-content">
-    <a href="../index.html" id="headerHome">Home</a>
-    <a href="../expertise/" id="headerExpertise">Expertise</a>
-    <a href="../about/" id="headerAbout">Over mij</a>
-    <a class="active" href="#Portfolio" id="headerPortfolio">Portfolio</a>
+            <a href="../index.html" id="headerHome">Home</a>
+            <a href="../expertise/" id="headerExpertise">Expertise</a>
+            <a href="../about/" id="headerAbout">Over mij</a>
+            <a class="active" href="#Project" id="headerProject">Projecten</a>
         </div>
     </header>
-        <div class="buttonWrap">
+    <div class="buttonWrap">
         <img src="../images/arrow.png" alt="" onclick="header()" id="button">
+    </div>
+
+    <div class="projectIntroductie">
+        <p id="introductieText">
+            Hier kan je een paar van mijn projecten vinden die ik gemaakt heb op school of daarbuiten die wat van mijn skills laten zien. <br>
+            (elke download is een zip)
+        </p>
+    </div>
+
+
+    <div class="container">
+        <h1 id="lijstText">Projectlijst</h1>
+        <div class="project">   
+            <img src="../images/RpgMaker3.jpeg" alt="" class="picture" >
+            <p class="projectText">Een project dat ik en mijn vrienden samen hebben gemaakt voor de jaarlijkse make-a-thon. 
+            Het thema was lo-fi dus hebben we het ook geport naar een ds waardoor we hebben gewonnen.
+            </p>
+            <a type="download" href="../Downloads/makeathonGame.zip" class="downloadButton">Download</a>
         </div>
 
+        <div class="project">
+            <img src="../images/MissionToMars.png" alt="" class="picture">
+            <p class="projectText">Voor school moest ik samen met klasgenoten een website maken als entertainment system 
+            voor wanneer mensen een reis hebben geboekt naar mars zodat mensen zodat ze niet verveeld raken.
+            </p>
+            <a type="download" href="../Downloads/MissionToMars.zip" class="downloadButton">Download</a>
+        </div>
 
-            <div class="container">
-                <div class="project">   
-                    <img src="../images/RpgMaker.png" id="rpgPicture" alt="">
-                        <p class="projectText">Een project dat ik en mijn vrienden hebben gemaakt voor de jaarlijkse make-a-thon. 
-                            Onze game heeft dat jaar gewonnen
-                        </p>
-                        <a type="download" href="../Downloads/makeathonGame.zip" class="downloadButton">Download</a>
-                </div>
+        <div class="project">
+            <img src="../images/InteractiveDisplay.png" alt="" class="picture">
+            <p class="projectText">Samen met een klasgenoot heb wij een interactieve display gemaakt om in de schermen op wachtkamers van ziekenhuizen te kunnen laten zien
+            zodat kinderen die aan het wachten zijn ermee kunnen spelen
+            </p>
+            <a type="download" href="../Downloads/InteractiveDisplay.zip" class="downloadButton">Download</a>
+        </div>
+    </div>
 
-                <div class="project">
-                    <img src="../images/MissionToMars.png" alt="" id="marsPicture">
-                        <p class="projectText"> Een website die ik met klagenoten op school heb gemaakt voor 
-                            wanneer mensen een reis naar Mars boeken en ze vermaak nodig hebben. 
-
-                        </p>
-                        <a type="download" href="../Downloads/MissionToMars.zip" class="downloadButton">Download</a>
-                </div>
-            </div>
-
-        <div class="space"> <p></p></div>
-
-
-        
 </body>
 </html>
