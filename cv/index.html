@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camiel portfolio</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/cv.css">
+    <script src="../Javascript/main.js"></script>
+    <script src="../Javascript/about.js"></script>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header" onclick="burger()">
+    <img src="../images/Hamburger.png" alt="" id="burger">
+        <div class="header-content">
+            <a href="../index.html" id="headerHome">Home</a>
+            <a href="../expertise/" id="headerExpertise">Expertise</a>
+            <a href="../about/" id="headerAbout">Over mij</a>
+            <a href="../work/" id="headerProject">Projecten</a>
+            <a class="active"  href="../cv/" class="headerCV">CV</a>
+        </div>
+    </header>
+    <div class="buttonWrap">
+        <img src="../images/arrow.png" alt="" onclick="header()" id="button">
+    </div>
+
+    <div class="pdf">
+        <iframe src="StageCV.pdf" id="document"></iframe>
+        <a href="StageCV.pdf" id="download">Download PDF</a>
+    </div> 
+</body>
+</html>

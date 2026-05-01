@@ -1,0 +1,17 @@
+.pdf{
+    position: relative;
+    text-align: center;
+    top: 35px;
+    width: 76%;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#document{
+    position: relative;
+
+    place-items: center;
+    width: 100%;
+    height: 100%;
+}
