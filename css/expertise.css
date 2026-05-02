@@ -1,3 +1,7 @@
+body{
+ height: 99%;
+}
+
 .skills{
     position: relative;
     width: 230px;
@@ -7,6 +11,18 @@
     border-color: #8d7c5e;
 }
 
-#skillsText{
+#skillsTitle{
     text-align: center;
+}
+
+#skillsText{
+    position: relative;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #8d7c5e;
+    left: 35%;
+    bottom: 300px;
+    width: 30%;
 }
