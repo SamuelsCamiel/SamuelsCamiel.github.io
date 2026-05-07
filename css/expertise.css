@@ -1,5 +1,5 @@
 body{
- height: 99%;
+    height: 99%;
 }
 
 .skills{
@@ -8,11 +8,12 @@ body{
     border-style: solid;
     border-width: 5px;
     border-radius: 10px;
-    border-color: #8d7c5e;
+    border-color: #a3594f;
 }
 
 #skillsTitle{
     text-align: center;
+    color: #d23b2a;
 }
 
 #skillsText{
@@ -21,7 +22,7 @@ body{
     border-style: solid;
     border-width: 3px;
     border-radius: 10px;
-    border-color: #8d7c5e;
+    border-color: #a3594f;
     left: 35%;
     bottom: 300px;
     width: 30%;
