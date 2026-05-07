@@ -27,3 +27,107 @@ body{
     bottom: 300px;
     width: 30%;
 }
+
+.HTML{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ad381b;
+
+}
+
+.CSS{
+    font-size: 20px;
+    font-weight: bold;
+    color: #733da9;
+}
+
+.bootstrap{
+    font-size: 20px;
+    font-weight: bold;
+    color: #5c2c8d;
+}
+
+.tailwind{
+    font-size: 20px;
+    font-weight: bold;
+    color: #af45b3;
+}
+
+.javascript{
+    font-size: 20px;
+    font-weight: bold;
+    color: #dbc41b;
+}
+
+.typescript{
+    font-size: 20px;
+    font-weight: bold;
+    color: #3178c6;
+}
+
+.electron{
+    font-size: 20px;
+    font-weight: bold;
+    color: #517684;
+}
+
+.nodejs{
+    font-size: 20px;
+    font-weight: bold;
+    color: #6eac3a;
+}
+
+.NPM{
+    font-size: 20px;
+    font-weight: bold;
+    color: #e71f47;   
+}
+
+.PHP{
+    font-size: 20px;
+    font-weight: bold;
+    color: #777bb3;
+}
+
+.laravel{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF2d20;
+}
+
+.SQL{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2787d1;
+}
+
+.SQLite{
+    font-size: 20px;
+    font-weight: bold;
+    color: #003652;
+}
+
+.mySQL{
+    font-size: 20px;
+    font-weight: bold;
+    color: #f8981d;
+}
+
+.PHPMyAdmin{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffab3d;
+}
+
+.noSQL{
+    font-size: 20px;
+    font-weight: bold;
+    color: #358328;
+}
+
+.mongoDB{
+    font-size: 20px;
+    font-weight: bold;
+    color: #57ae47;
+}
+

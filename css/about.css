@@ -55,20 +55,23 @@
 
 #me{
     position: relative;
+    color: #79250c;
 }
 
 #music{
     position: relative;
+    color: #79250c;
 }
 
 #cosplay{
     position: relative;
+    color: #79250c;
 }
 
 #text1{
     position: relative;
     border-style: solid;
-    border-width: 5px;
+    border-width: 3px;
     border-radius: 10px;
     border-color: #8d705e;
 }          
@@ -76,7 +79,7 @@
 #text2{
     position: relative;
     border-style: solid;
-    border-width: 5px;
+    border-width: 3px;
     border-radius: 10px;
     border-color: #8d705e;
 }              
@@ -84,7 +87,7 @@
 #text3{
     position: relative;
     border-style: solid;
-    border-width: 5px;
+    border-width: 3px;
     border-radius: 10px;
     border-color: #8d705e;
 }              
