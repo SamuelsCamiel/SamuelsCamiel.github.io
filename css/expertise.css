@@ -1,10 +1,8 @@
-body{
-    height: 99%;
-}
+
 
 .skills{
     position: relative;
-    width: 230px;
+    width: 250px;
     border-style: solid;
     border-width: 5px;
     border-radius: 10px;
@@ -13,19 +11,19 @@ body{
 
 #skillsTitle{
     text-align: center;
-    color: #d23b2a;
+    color: #c8301f;
 }
 
 #skillsText{
-    position: relative;
+    position: absolute;
     text-align: center;
     border-style: solid;
     border-width: 3px;
     border-radius: 10px;
     border-color: #a3594f;
-    left: 35%;
-    bottom: 400px;
-    width: 30%;
+    left: 25%;
+    bottom: 300px;
+    width: 50%;
 }
 
 .HTML{
@@ -49,7 +47,7 @@ body{
 .tailwind{
     font-size: 20px;
     font-weight: bold;
-    color: #c93077;
+    color: #d23d8f;
 }
 
 .javascript{
@@ -98,7 +96,7 @@ body{
 .SQL{
     font-size: 20px;
     font-weight: bold;
-    color: #898dc5;
+    color: #9195cd;
 }    
 .SQLite{
     font-size: 20px;
@@ -109,7 +107,7 @@ body{
 .mySQL{
     font-size: 20px;
     font-weight: bold;
-    color: #408198;
+    color: #39778d;
 }    
 
 .PHPMyAdmin{
