@@ -7,7 +7,7 @@ document.getElementById("button").classList.toggle("active")
 
 function burger() {
 let windowWidth = window.innerWidth;
-    if(windowWidth < 951) {
+    if(windowWidth < 1082) {
         console.log(windowWidth)
         document.getElementById("header").classList.toggle("active")
     }

@@ -75,17 +75,3 @@
     width: 70%;
     border-radius: 10px;
 }
-
-
-
-@media only screen and (max-width: 0px) {
-
-    .container{
-        grid-template-columns: auto;
-    }
-
-    .project{
-        width: 70%;
-        height: 70%;
-    }
-}
