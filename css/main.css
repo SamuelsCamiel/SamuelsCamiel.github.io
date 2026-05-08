@@ -152,7 +152,7 @@ header.active{
         position: relative;
         color: black;
         margin: 0vw;
-
+        padding: 1.4vw;
     }
     .header-content{
     display: none;
