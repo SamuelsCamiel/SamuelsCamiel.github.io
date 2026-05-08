@@ -1,133 +1,131 @@
-body{
-    height: 99%;
-}
+
 
 .skills{
-    position: relative;
-    width: 230px;
+    position: fixed;
     border-style: solid;
     border-width: 5px;
     border-radius: 10px;
     border-color: #a3594f;
+    width: 18vw;
+    top: 12 0px;
+    font-size: 1.1vw;
 }
 
 #skillsTitle{
     text-align: center;
-    color: #d23b2a;
+    color: #c8301f;
 }
 
 #skillsText{
-    position: relative;
+    position: absolute;
     text-align: center;
     border-style: solid;
     border-width: 3px;
     border-radius: 10px;
     border-color: #a3594f;
-    left: 35%;
-    bottom: 300px;
-    width: 30%;
+    left: 25%;
+    bottom: 200px;
+    width: 50vw;
+    font-size: 1.4vw;
 }
 
 .HTML{
-    font-size: 20px;
     font-weight: bold;
-    color: #ad381b;
-
+    color: #e34c26;
 }
 
 .CSS{
-    font-size: 20px;
     font-weight: bold;
-    color: #733da9;
+    color:#733ca9;
 }
 
 .bootstrap{
-    font-size: 20px;
     font-weight: bold;
-    color: #5c2c8d;
+    color:#42186c;
 }
 
 .tailwind{
-    font-size: 20px;
     font-weight: bold;
-    color: #af45b3;
+    color: #d23d8f;
 }
 
 .javascript{
-    font-size: 20px;
     font-weight: bold;
-    color: #dbc41b;
-}
+    color: #d1bc00;
 
-.typescript{
-    font-size: 20px;
-    font-weight: bold;
-    color: #3178c6;
-}
-
-.electron{
-    font-size: 20px;
-    font-weight: bold;
-    color: #517684;
-}
-
-.nodejs{
-    font-size: 20px;
-    font-weight: bold;
-    color: #6eac3a;
 }
 
 .NPM{
-    font-size: 20px;
     font-weight: bold;
-    color: #e71f47;   
+    color: #cb3837;
+}    
+
+.typescript{
+    font-weight: bold;
+    color: #006bb3;
+}
+
+.electron{
+    font-weight: bold;
+    color: #80d6e8;
+}
+
+.nodejs{
+    font-weight: bold;
+    color: #81cd39;
 }
 
 .PHP{
-    font-size: 20px;
     font-weight: bold;
-    color: #777bb3;
-}
+    color: #4f5d95;
+}    
 
 .laravel{
-    font-size: 20px;
     font-weight: bold;
-    color: #FF2d20;
-}
+    color: #ff0d00;
+}    
 
 .SQL{
-    font-size: 20px;
     font-weight: bold;
-    color: #2787d1;
-}
-
+    color: #9195cd;
+}    
 .SQLite{
-    font-size: 20px;
     font-weight: bold;
-    color: #003652;
-}
+    color: #0f8ce0;
+}    
 
 .mySQL{
-    font-size: 20px;
     font-weight: bold;
-    color: #f8981d;
-}
+    color: #39778d;
+}    
 
 .PHPMyAdmin{
-    font-size: 20px;
     font-weight: bold;
-    color: #ffab3d;
-}
+    color: #f29111;
+}    
 
 .noSQL{
-    font-size: 20px;
     font-weight: bold;
-    color: #358328;
-}
+    color: #007832;
+}    
 
 .mongoDB{
-    font-size: 20px;
-    font-weight: bold;
-    color: #57ae47;
+    font-weight: bold;  
+    color: #10aa50;
+}    
+
+@media only screen and (max-width: 1081px) {
+
+    #skillsText{
+        margin-bottom: 150px;
+    }
+
 }
+
+
+
+
+
+
+
 

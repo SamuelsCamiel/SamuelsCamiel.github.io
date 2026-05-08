@@ -99,7 +99,7 @@ img{
 img:hover{
     transform: scale(1.05);
 }
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1081px) {
 
 img:hover{
     transform: scale(1);
