@@ -23,7 +23,7 @@ header a {
     margin-right: 50px;
     color: rgb(38, 38, 38);
     text-align: center;
-    padding: 17px;
+    padding: 1.8vw;
     text-decoration: none;
     font-size: 18px; 
     line-height: 25px;
@@ -83,7 +83,7 @@ header.active{
 
 #contact{
     position: relative;
-    color: #79260c;
+    color: black;
     top: 12px;
     font-weight: 900;
     font-size: 35px;
@@ -144,14 +144,16 @@ header.active{
     margin: 0%;
     width: 10%;
     left: 85%;
-    padding: 5% 2%;
+    padding: 2.5% 0.3%;
     background-color: #c04c40;
+    border-radius: 9px;
     }
 
     header a{
         position: relative;
         color: black;
-        margin: 0%;
+        margin: 0vw;
+
     }
     .header-content{
     display: none;
