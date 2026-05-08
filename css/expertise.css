@@ -6,8 +6,7 @@
     border-width: 5px;
     border-radius: 10px;
     border-color: #a3594f;
-    width: 250px;
-    bottom: 40px;
+    width: 20%;
 }
 
 #skillsTitle{
@@ -112,8 +111,14 @@
     color: #10aa50;
 }    
 
+@media only screen and (max-width: 1035px) {
 
+    .skills{
+        font-size: 80%; 
+        bottom: 100px;
+    }
 
+}
 
 
 
