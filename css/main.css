@@ -23,7 +23,7 @@ header a {
     margin-right: 50px;
     color: rgb(38, 38, 38);
     text-align: center;
-    padding: 1.8vw;
+    padding: 1.4vw;
     text-decoration: none;
     font-size: 18px; 
     line-height: 25px;
@@ -83,7 +83,6 @@ header.active{
 
 #contact{
     position: relative;
-    color: black;
     top: 12px;
     font-weight: 900;
     font-size: 35px;
