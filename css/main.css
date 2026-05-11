@@ -142,7 +142,7 @@ header.active{
         top: 5px;
         margin: 0%;
         width: 50px;
-        padding: 30px 20px;
+        padding: 25px 15px;
         background-color: #c04c40;
         border-radius: 20px;
     }
@@ -151,7 +151,7 @@ header.active{
         position: relative;
         color: black;
         margin: 0vw;
-        padding: 1.4vw;
+        padding: 13px;
     }
 
     header.active{
