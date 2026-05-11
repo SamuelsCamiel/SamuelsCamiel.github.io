@@ -7,7 +7,7 @@
     border-radius: 10px;
     border-color: #a3594f;
     width: 18vw;
-    top: 12 0px;
+    top: 120px;
     font-size: 1.1vw;
 }
 
@@ -23,7 +23,7 @@
     border-width: 3px;
     border-radius: 10px;
     border-color: #a3594f;
-    left: 25%;
+    left: 25vw;
     bottom: 200px;
     width: 50vw;
     font-size: 1.4vw;
@@ -114,11 +114,18 @@
     color: #10aa50;
 }    
 
-@media only screen and (max-width: 1081px) {
+@media only screen and (max-width: 1230px) {
+
+    .skills{
+        top: 50px;
+    }
 
     #skillsText{
-        margin-bottom: 150px;
+        width: 70vw;
+        left: 15vw;
     }
+
+
 
 }
 
