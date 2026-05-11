@@ -108,7 +108,6 @@ header.active{
     cursor: pointer;
     border-radius: 25%;
     width: 85px;
-
     transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
 }
 
@@ -137,18 +136,15 @@ header.active{
     /*mobile*/
 @media only screen and (max-width: 1230px) {
     header{
-    position: absolute;
-    place-self: end;
-    right: 2.5%;
-    cursor: pointer;
-    top: 5px;
-    margin: 0%;
-    width: 50px;
-    padding: 30px 20px;
-
-
-    background-color: #c04c40;
-    border-radius: 9px;
+        position: absolute;
+        place-self: end;
+        cursor: pointer;
+        top: 5px;
+        margin: 0%;
+        width: 50px;
+        padding: 30px 20px;
+        background-color: #c04c40;
+        border-radius: 9px;
     }
 
     header a{
@@ -157,43 +153,47 @@ header.active{
         margin: 0vw;
         padding: 1.4vw;
     }
+
+    header.active{
+        top: 5px !important;
+    }
+
     .header-content{
-    display: none;
-    position: absolute;
-    padding: 5%;
-    z-index: 1;
+        display: none;
+        position: absolute;
+        padding: 5%;
+        z-index: 1;
     }
 
     header.active .header-content {
-    display: grid;
-    cursor: pointer;
-    margin-left: 75%;
-    right: -3%;
-    top: 70px;
+        display: grid;
+        cursor: pointer;
+        margin-left: 75%;
+        right: -3%;
+        top: 70px;
     }
 
     #button{
-    display: none;
+        display: none;
     }
 
     #headerHome{
-    position: relative;
+        position: relative;
     }
 
     #headerAbout {
-    position: relative;
-    margin-left: 0%;
-    margin-right: 0%;
-    left: 0px;
+        position: relative;
+        margin-left: 0%;
+        margin-right: 0%;
+        left: 0px;
     }
 
     #headerPortfolio{
-    position: relative;
+        position: relative;
     }
 
     #burger{ 
         display: unset !important;
-        
     }
 }
 
