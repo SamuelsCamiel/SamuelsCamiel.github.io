@@ -137,13 +137,15 @@ header.active{
     /*mobile*/
 @media only screen and (max-width: 1230px) {
     header{
-    position: relative;
+    position: absolute;
+    place-self: end;
+    right: 2.5%;
     cursor: pointer;
-    top: 0px;
+    top: 5px;
     margin: 0%;
     width: 50px;
     padding: 30px 20px;
-    left: 85vw;
+
 
     background-color: #c04c40;
     border-radius: 9px;
