@@ -43,12 +43,6 @@ header a.active {
 header.active{
     top: 0 !important;
 }
-
-.headerAbout{
-    position: relative;
-
-}
-
     /*header*/
 
     /*button*/
@@ -140,9 +134,10 @@ header.active{
         place-self: end;
         cursor: pointer;
         top: 5px;
+        right: 40px;
         margin: 0%;
         width: 50px;
-        padding: 25px 15px;
+        padding: 25px 12px;
         background-color: #c04c40;
         border-radius: 20px;
     }
@@ -156,6 +151,7 @@ header.active{
 
     header.active{
         top: 5px !important;
+        transition: none;
     }
 
     .header-content{
@@ -168,8 +164,6 @@ header.active{
     header.active .header-content {
         display: grid;
         cursor: pointer;
-        margin-left: 75%;
-        right: -3%;
         top: 70px;
     }
 
