@@ -6,7 +6,7 @@
     border-width: 5px;
     border-radius: 10px;
     border-color: #a3594f;
-    width: 230px;
+    width: 210px;
     top: 120px;
     font-size: 15px;
 }
@@ -129,9 +129,7 @@
 
 @media only screen and (max-width: 940px) {
 
-    .skills{
-        width: 25vw;
-    }
+
 
 }
 
