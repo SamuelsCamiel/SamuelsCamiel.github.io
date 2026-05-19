@@ -117,15 +117,16 @@
 @media only screen and (max-width: 1230px) {
 
     .skills{
-        font-size: 12.5px;
+        font-size: 11px;
         width: 190px;
-        top: 10px;
+        top: 5px;
 
     }
 
     #skillsText{
         left: 0vw;
         width: 99.46vw;
+        bottom: 138px;
         font-size: 15px;
     }
 
