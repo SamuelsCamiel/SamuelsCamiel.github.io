@@ -24,7 +24,7 @@
     border-radius: 10px;
     border-color: #a3594f;
     left: 25vw;
-    bottom: 200px;
+    bottom: 150px;
     width: 50vw;
     font-size: 1.4vw;
 }
@@ -117,21 +117,17 @@
 @media only screen and (max-width: 1230px) {
 
     .skills{
-        top: 50px;
+        top: 10px;
     }
 
     #skillsText{
-        width: 70vw;
-        left: 15vw;
+        left: 20vw;
+        width: 60%;
+        font-size: 15px;
     }
 
 }
 
-@media only screen and (max-width: 940px) {
-
-
-
-}
 
 
 
