@@ -27,7 +27,6 @@ body{
 #name{
     position: relative;
 
-    filter: blur(0.3px);
     color: #e34736;
     font-weight: 900;
     bottom: 50px;
