@@ -1,27 +1,27 @@
 .container{
     position: fixed;
     display: grid;
+    width: 90vw;
     column-gap: 2%;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 32% 32% 32%;
     justify-content: center;
+    justify-self: center;
     place-items: center;
     text-align: center;
-    top: 170px;
+    top: 190px;
+
 }
 
 .box{
     position: relative;
     place-items: center;
-}
-
-#text.box{
     height: 100%;
 }
 
+
 #picture1{
     display: grid;
-    width: 50%;
-    height: 60%;
+    width: 15vw;
     object-fit: cover;
     justify-content: center;
     border-radius: 20px;
@@ -32,7 +32,7 @@
 
 #picture2{
     display: grid;
-    width: 75%;
+    width: 26vw;
     object-fit: cover;
     justify-content: center;
     border-radius: 20px;
@@ -44,7 +44,7 @@
 #picture3{
     display: grid;  
     position: relative;
-    width: 55%;
+    width: 26vw;
     object-fit: cover;
     justify-content: center;
     border-radius: 20px; 
@@ -65,7 +65,7 @@
     position: relative;
 }
 
-#text1{
+#text{
     position: relative;
     border-style: solid;
     border-width: 3px;
@@ -73,21 +73,6 @@
     border-color: #8d705e;
 }          
 
-#text2{
-    position: relative;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 10px;
-    border-color: #8d705e;
-}              
-
-#text3{
-    position: relative;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 10px;
-    border-color: #8d705e;
-}              
 
 img{
     transition: background-color 0.4s ease, transform 0.4s ease;
@@ -96,6 +81,24 @@ img{
 img:hover{
     transform: scale(1.05);
 }
+
+@media only screen and (max-width: 1230px)
+{
+
+    .container{
+        position: relative;
+        display: grid;
+        grid-template-columns: 100%;
+        width: 80vw;
+    }
+
+    #text{
+        
+    }
+}
+
+
+/*
 @media only screen and (max-width: 1081px) {
 
 img:hover{
@@ -181,3 +184,4 @@ p{
 }
 
 }
+*/
