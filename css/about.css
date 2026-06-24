@@ -1,9 +1,14 @@
+body{
+    display: grid;
+}
+
+
 .container{
     position: fixed;
     display: grid;
-    width: 90vw;
-    column-gap: 2%;
-    grid-template-columns: 32% 32% 32%;
+    width: 99.1%;
+    column-gap: 2vw;
+    grid-template-columns: 32vw 32vw 32vw;
     justify-content: center;
     justify-self: center;
     place-items: center;
@@ -20,10 +25,9 @@
 
 
 #picture1{
-    display: grid;
     width: 15vw;
     object-fit: cover;
-    justify-content: center;
+    justify-self: center;
     border-radius: 20px;
     border-style: solid;
     border-width: 3.5px;
@@ -31,7 +35,6 @@
 }
 
 #picture2{
-    display: grid;
     width: 26vw;
     object-fit: cover;
     justify-content: center;
@@ -42,8 +45,6 @@
 }
 
 #picture3{
-    display: grid;  
-    position: relative;
     width: 26vw;
     object-fit: cover;
     justify-content: center;
@@ -87,13 +88,22 @@ img:hover{
 
     .container{
         position: relative;
+        justify-self: center;
         display: grid;
         grid-template-columns: 100%;
         width: 80vw;
     }
 
-    #text{
-        
+    #picture1{
+        width: 25vw;
+    }
+
+    #picture2{
+        width: 35vw;
+    }
+
+    #picture3{
+        width: 35vw;
     }
 }
 
