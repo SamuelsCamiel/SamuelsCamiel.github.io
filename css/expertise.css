@@ -136,10 +136,10 @@
     }
 
     #skillsText{
-        left: 4vw;
-        width: 99vw;
+        left: 0vw;
+        width: 99.5vw;
         bottom: 140px;
-        font-size: 14.4px;
+        font-size: 1.3vw;
     }
 
 }
