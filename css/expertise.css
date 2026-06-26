@@ -6,7 +6,7 @@
     border-color: #a3594f;
     width: 210px;
     top: 140px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 #skillsTitle{
@@ -138,7 +138,7 @@
     #skillsText{
         left: 4vw;
         width: 90vw;
-        bottom: 220px;
+        bottom: 150px;
         font-size: 15px;
     }
 
