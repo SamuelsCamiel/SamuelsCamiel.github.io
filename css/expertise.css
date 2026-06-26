@@ -5,7 +5,6 @@
     border-radius: 10px;
     border-color: #a3594f;
     width: 210px;
-    height: 323px;
     top: 140px;
     font-size: 14px;
 }
@@ -137,7 +136,7 @@
     }
 
     #skillsText{
-        left: 0vw;
+        left: 0px;
         width: 99.5vw;
         bottom: 135px;
         font-size: 13.5px;
