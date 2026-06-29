@@ -1,11 +1,13 @@
+@import "colors.css";
+
 .skills{
-    position: fixed;
+    position: relative;
     border-style: solid;
     border-width: 5px;
     border-radius: 10px;
     border-color: #a3594f;
     width: 210px;
-    top: 140px;
+    bottom: 20px;
     font-size: 14px;
 }
 
@@ -21,112 +23,24 @@
     border-width: 3px;
     border-radius: 10px;
     border-color: #a3594f;
-    left: 20vw;
+    left: 22vw;
     bottom: 100px;
     width: 70vw;
     font-size: 21px;
 }
 
-.HTML{
-    font-weight: bold;
-    color: #e34c26;
-}
 
-.CSS{
-    font-weight: bold;
-    color:#733ca9;
-}
-
-.bootstrap{
-    font-weight: bold;
-    color:#42186c;
-}
-
-.tailwind{
-    font-weight: bold;
-    color: #d23d8f;
-}
-
-.javascript{
-    font-weight: bold;
-    color: #d1bc00;
-}
-
-.p5{
-    font-weight: bold;
-    color: #ED1F5E;
-}
-
-.typescript{
-    font-weight: bold;
-    color: #034e80;
-}
-
-.jquery{
-    font-weight: bold;
-    color: #006fb9;
-}
-
-.electron{
-    font-weight: bold;
-    color: #80d6e8;
-}
-
-.nodejs{
-    font-weight: bold;
-    color: #81cd39;
-}
-
-.leaflet{
-    font-weight: bold;
-    color: rgb(39, 211, 39);
-}
-
-.NPM{
-    font-weight: bold;
-    color: #cb3837;
-}   
-
-.PHP{
-    font-weight: bold;
-    color: #4f5d95;
-}    
-
-.laravel{
-    font-weight: bold;
-    color: #ff0d00;
-}    
-
-.SQL{
-    font-weight: bold;
-    color: #9195cd;
-}    
-.SQLite{
-    font-weight: bold;
-    color: #0f8ce0;
-}    
-
-.mySQL{
-    font-weight: bold;
-    color: #39778d;
-}    
-
-.PHPMyAdmin{
-    font-weight: bold;
-    color: #f29111;
-}    
-
-.noSQL{
-    font-weight: bold;
-    color: #007832;
-}    
-
-.mongoDB{
-    font-weight: bold;  
-    color: #10aa50;
-}    
 
 @media only screen and (max-width: 1230px) {
+
+    body{
+        height: 3000px;
+    }
+
+    .footer{
+        position: relative;
+        top: 300px;
+    }
 
     .skills{
         font-size: 10px;
@@ -136,10 +50,10 @@
     }
 
     #skillsText{
-        left: 0px;
-        width: 99.1vw;
-        bottom: 10px;
-        font-size: 13.1px;
+        left: 37vw;
+        width: 40vw;
+
+        font-size: 13.6px;
     }
 
 }

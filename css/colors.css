@@ -1,0 +1,98 @@
+.HTML{
+    font-weight: bold;
+    color: #e34c26;
+}
+
+.CSS{
+    font-weight: bold;
+    color:#733ca9;
+}
+
+.bootstrap{
+    font-weight: bold;
+    color:#42186c;
+}
+
+.tailwind{
+    font-weight: bold;
+    color: #d23d8f;
+}
+
+.javascript{
+    font-weight: bold;
+    color: #d1bc00;
+}
+
+.p5{
+    font-weight: bold;
+    color: #ED1F5E;
+}
+
+.typescript{
+    font-weight: bold;
+    color: #034e80;
+}
+
+.jquery{
+    font-weight: bold;
+    color: #006fb9;
+}
+
+.electron{
+    font-weight: bold;
+    color: #80d6e8;
+}
+
+.nodejs{
+    font-weight: bold;
+    color: #81cd39;
+}
+
+.leaflet{
+    font-weight: bold;
+    color: rgb(39, 211, 39);
+}
+
+.NPM{
+    font-weight: bold;
+    color: #cb3837;
+}   
+
+.PHP{
+    font-weight: bold;
+    color: #4f5d95;
+}    
+
+.laravel{
+    font-weight: bold;
+    color: #ff0d00;
+}    
+
+.SQL{
+    font-weight: bold;
+    color: #9195cd;
+}    
+.SQLite{
+    font-weight: bold;
+    color: #0f8ce0;
+}    
+
+.mySQL{
+    font-weight: bold;
+    color: #39778d;
+}    
+
+.PHPMyAdmin{
+    font-weight: bold;
+    color: #f29111;
+}    
+
+.noSQL{
+    font-weight: bold;
+    color: #007832;
+}    
+
+.mongoDB{
+    font-weight: bold;  
+    color: #10aa50;
+}    
